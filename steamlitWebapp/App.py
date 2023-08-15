@@ -3,7 +3,7 @@ from  joblib import load
 import numpy as np
 
 ## load the model from disk 
-model = load('iris_model.joblib')
+model = load('./iris_model.joblib')
 st.title('Iris Flower Prediction App')
 
 ### Create streamlit UI 
