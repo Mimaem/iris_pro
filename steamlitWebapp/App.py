@@ -1,6 +1,6 @@
 import streamlit as st 
 from  joblib import load 
-import numbers as np
+import numpy as np
 
 ## load the model from disk 
 model = load('iris_model.joblib')
